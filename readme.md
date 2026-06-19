@@ -1,14 +1,15 @@
 # NumColor: Precise Numeric Color Control in Text-to-Image Generation
 
-> **Accepted at ECCV 2026** 🎉
+> **Accepted at European Conference on Computer Vision 2026** 🎉
 
 **[Muhammad Atif Butt](#)**, **[Diego Hernández](#)**, **[Alexandra Gomez-Villa](#)**, **[Kai Wang](#)**, **[Javier Vazquez-Corral](#)**, **[Joost van de Weijer](#)**
 
-Computer Vision Center (CVC), Universitat Autònoma de Barcelona (UAB)
+Computer Vision Center (CVC), Barcelona, Spain.
+Computer Sciences Department, Universitat Autònoma de Barcelona, Barcelona, Spain.
+Program of Computer Science, City University of Hong Kong (Dongguan), China.
+City University of Hong Kong, China.
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.13547)
-[![Conference](https://img.shields.io/badge/ECCV-2026-blue.svg)](#)
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](#)
 
 ---
 
@@ -21,7 +22,6 @@ The framework introduces:
 - **Color Token Aggregator (CTA):** A tokenizer-agnostic, learned module that detects and aggregates fragmented color tokens (hex codes / CSS-style color references) into coherent, injectable representations.
 - **ColorBook:** A perceptually-structured color codebook trained on Lambertian-rendered data with calibrated D65 illumination, enabling precise mapping from numeric color specifications to T5 embedding space.
 - **NumColor-Data:** A 500K synthetic dataset for training color-grounded conditioning.
-- **GenColorBench:** A benchmark for evaluating numeric color understanding across ISCC-NBS L1/L3 and CSS3 color naming systems.
 
 ## Method
 
@@ -37,16 +37,6 @@ NumColor replaces fragmented color-token embeddings with ColorBook entries **bef
   <img src="assets/results.png" alt="NumColor Qualitative Results" width="90%">
 </p>
 
-Quantitative comparison on GenColorBench-Mini (Numeric Color Understanding task):
-
-| Method            | ISCC L1 | ISCC L3 | CSS3  |
-|-------------------|:-------:|:-------:|:-----:|
-| Qwen-Image        | 25.64   | 18.73   | 14.26 |
-| Z-Image           | 22.18   | 16.92   | 12.45 |
-| FLUX.2            | 48.72   | 39.29   | 42.67 |
-| GPT-Image-1.5     | 51.82   | 48.12   | 49.91 |
-| **NumColor + FLUX.1** | **55.71** | **48.02** | **51.96** |
-
 NumColor preserves the base model's pretrained named-color understanding: FLUX.1 achieves 81.27% accuracy on natural color prompts, while NumColor + FLUX.1 attains 80.04% on the same set.
 
 ## Release
@@ -58,8 +48,6 @@ Planned releases:
 - [ ] Training and inference code
 - [ ] Pretrained CTA and ColorBook checkpoints (FLUX.1)
 - [ ] NumColor-Data (500K synthetic training set)
-- [ ] GenColorBench evaluation suite
-- [ ] Project page with interactive demos
 
 ## Citation
 
