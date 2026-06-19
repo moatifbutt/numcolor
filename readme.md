@@ -25,17 +25,19 @@ The framework introduces:
 
 ## Method
 
-<p align="center">
-  <img src="assets/method.png" alt="NumColor Method Overview" width="90%">
-</p>
+<picture>
+     <source srcset="assets/nucolor_method.svg" type="image/svg+xml">
+     <!-- <img src="assets/method.png" alt="NumColor Method Overview" width="90%"> -->
+</picture>
 
 NumColor replaces fragmented color-token embeddings with ColorBook entries **before contextualization** in the T5 text encoder. This allows the color embeddings to flow through self-attention alongside text tokens, binding colors to their target objects without modifying the diffusion backbone.
 
 ## Results
 
-<p align="center">
-  <img src="assets/results.png" alt="NumColor Qualitative Results" width="90%">
-</p>
+<picture>
+     <!-- <source srcset="assets/nucolor_method.svg" type="image/svg+xml"> -->
+     <img src="assets/qualitative_results.png" alt="Qualitative Results of NumColor + FLUX.1" width="90%">
+</picture>
 
 NumColor preserves the base model's pretrained named-color understanding: FLUX.1 achieves 81.27% accuracy on natural color prompts, while NumColor + FLUX.1 attains 80.04% on the same set.
 
