@@ -33,10 +33,10 @@ NumColor replaces fragmented color-token embeddings with ColorBook entries **bef
 
 ## Results
 
-<picture>
+<p align="center">
      <!-- <source srcset="assets/nucolor_method.svg" type="image/svg+xml"> -->
      <img src="assets/qualitative_results.png" alt="Qualitative Results of NumColor + FLUX.1" width="90%">
-</picture>
+</p>
 
 NumColor preserves the base model's pretrained named-color understanding: FLUX.1 achieves 81.27% accuracy on natural color prompts, while NumColor + FLUX.1 attains 80.04% on the same set.
 
