@@ -25,10 +25,9 @@ The framework introduces:
 
 ## Method
 
-<picture>
-     <source srcset="assets/nucolor_method.svg" type="image/svg+xml">
-     <!-- <img src="assets/method.png" alt="NumColor Method Overview" width="90%"> -->
-</picture>
+<p align="center">
+  <img src="assets/nucolor_method.svg" alt="NumColor Method Overview" width="90%">
+</p>
 
 NumColor replaces fragmented color-token embeddings with ColorBook entries **before contextualization** in the T5 text encoder. This allows the color embeddings to flow through self-attention alongside text tokens, binding colors to their target objects without modifying the diffusion backbone.
 
