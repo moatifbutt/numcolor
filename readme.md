@@ -2,7 +2,7 @@
 
 > **Accepted at European Conference on Computer Vision 2026** 🎉
 
-**[Muhammad Atif Butt](https://scholar.google.com/citations?user=vf7PeaoAAAAJ&hl=en)**, **[Diego Hernández](#)**, **[Alexandra Gomez-Villa](#)**, **[Kai Wang](#)**, **[Javier Vazquez-Corral](#)**, **[Joost van de Weijer](#)**
+**[Muhammad Atif Butt](https://scholar.google.com/citations?user=vf7PeaoAAAAJ&hl=en)**, **[Diego Hernández](https://scholar.google.com/citations?user=6SBoE-YAAAAJ&hl=en)**, **[Alexandra Gomez-Villa](https://scholar.google.com/citations?user=A2dhwNgAAAAJ&hl=en)**, **[Kai Wang](https://scholar.google.com/citations?user=j14vd0wAAAAJ&hl=en)**, **[Javier Vazquez-Corral](https://scholar.google.com/citations?user=gjnuPMoAAAAJ&hl=en)**, **[Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en)**
 
 Computer Vision Center (CVC), Barcelona, Spain.
 Computer Sciences Department, Universitat Autònoma de Barcelona, Barcelona, Spain.
