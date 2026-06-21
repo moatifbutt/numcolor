@@ -42,7 +42,7 @@ NumColor preserves the base model's pretrained named-color understanding: FLUX.1
 
 ## Release
 
-> 🚧 **Code, pretrained models, and the NumColor-Data / GenColorBench datasets will be released soon.** Please ⭐ this repository to be notified.
+> 🚧 **Code, pretrained models, and the NumColor-Data will be released soon.** Please ⭐ this repository to be notified.
 
 Planned releases:
 
